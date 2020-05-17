@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia;
+  font-size: 16px;
+  background: #E6E6FA;
+}
+
+.conteiner {
+  background: #F5F5F5;
+}
+
+.header .head ul {
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  border: solid 1px;
+}
+
+.header .head ul li {
+  display: block;
+}
+
+.conteiner {
+  width: 1336px;
+  margin: 0 auto;
+}
+
+/*header*/
+#sidebar {
+  width: 100px;
+}
+
+#logo {
+  width: 724px;
+}
+
+.nav-kategorii {
+  border: solid 1px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav-kategorii nav ul {
+  display: flex;
+  list-style: none;
+  padding: 30px;
+}
+
+.nav-kategorii nav ul li {
+  text-align: center;
+  border: solid 1px;
+  margin: 0 20px;
+}
+
+.cotegori {
+  width: 230px;
+  height: 355px;
+  padding: 5px;
+}
+
+.nav-kategorii h2 {
+  border: solid 1px;
+  width: 230px;
+  display: inline-block;
+  padding: 3px;
+}
+
+.nav-kategorii nav ul li a {
+  width: 145;
+  height: 56;
+  font-size: 24px;
+}
+
+#menu-1 {
+  background: url('../../картинки/phone.png') center center no-repeat;
+  background-size: 120px auto;
+}
+
+#menu-2 {
+  background: url('../../картинки/tv.png') center center no-repeat;
+  background-size: 220px auto;
+}
+
+#menu-3 {
+  background: url('../../картинки/пк.png') center center no-repeat;
+  background-size: 140px auto;
+}
+
+#menu-4 {
+  background: url('../../картинки/стиралка.png') center center no-repeat;
+  background-size: 140px auto;
+}
+
+#menu-5 {
+  background: url('../../картинки/принтер.png') center center no-repeat;
+  background-size: 180px auto;
+}
+
+
+/*popylar*/
+.popylar {
+  border: solid 1px;
+  text-align: center;
+  height: 550px;
+  margin-top: 30px;
+}
+
+.popylar h2 {
+  text-align: center;
+  padding: 30px 0 0 0;
+  font-size: 30px;
+}
+
+.popylar-ul ul {
+  padding-top: 50px;
+  list-style: none;
+}
+
+.popylar ul li{
+  display: inline-block;
+  text-align: center;
+  border: solid 1px;
+  width: 230px;
+  height: 355px;
+}
+
+.popylar ul li a {
+  padding: 10px;
+  font-size: 24px;
+}
+
+#popylar-1q {
+  background: url('../../картинки/стиралка.png') center center no-repeat;
+  background-size: 200px auto;
+}
+
+#popylar-2q {
+  background: url('../../картинки/кошкод.jpg') center center no-repeat;
+  background-size: 200px 200px;
+}
+
+#popylar-3q {
+  background: url('../../картинки/сковорода.png') center center no-repeat;
+  background-size: 200px 200px;
+}
+/*news*/
+
+.new {
+  margin-top:30px;
+  border: solid 1px;
+}
+
+.new h2 {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.new ul {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.new .news-prodykts li {
+  width: 230px;
+  display: inline-block;
+  text-align: center;
+  border: solid 1px;
+  height: 355px;
+  margin: 10px;
+}
+
+.new .news-prodykts li a {
+  font-size: 24px;
+}
+
+#new-1 {
+  background: url('../../картинки/Mysor_OK.jpg') center center no-repeat;
+  background-size: 200px 180px;
+}
+
+#new-2 {
+  background: url('../../картинки/SS.jpg') center center no-repeat;
+  background-size: 160px 200px;
+}
+
+#new-3 {
+  background: url('../../картинки/my_cop.jpg') center center no-repeat;
+  background-size: 160px 200px;
+}
+
+#new-4 {
+  background: url('../../картинки/rom.jpg') center center no-repeat;
+  background-size: 200px 200px;
+}
+
+#new-5 {
+  background: url('../../картинки/ivovarnia.jpg') center center no-repeat;
+  background-size: 200px 200px;
+}
+
+/*interesting*/
+
+.interesting {
+  border: solid 1px;
+  margin: 30px 0;
+  height: 537px;
+}
+
+.interesting .interest-ul-1 {
+  width: 300px;
+  display: block;
+  padding: 0 0 0 36px;
+  float: left;
+  list-style: none;
+
+}
+
+.interesting .interest-ul-1 li {
+  padding: 0 0 47px 0;
+  font-size: 18px;
+}
+
+.interesting h2 {
+  padding: 64px 0 27px 33px;
+  font-size: 25px;
+}
+
+.interest-ul-foto {
+  width: 790px;
+  float: left;
+  padding:0 0 30px 30px;
+  list-style: none;
+  display: flex;
+}
+
+      #interest-1 {
+        background: url('../../картинки/пылесос.jpg') center center no-repeat;
+      }
+
+      #interest-2 {
+        background: url('../../картинки/робот чап.jpg') center center no-repeat;
+
+      }
+
+      #interest-3 {
+        background: url('../../картинки/ангум+кшкдвчки.jpg') center center no-repeat;
+      }
+
+      #interest-4 {
+        background: url('../../картинки/пивоварня.jpg') center center no-repeat;
+      }
+
+      #interest-5 {
+        background: url('../../картинки/кошкод.jpg') center center no-repeat;
+      }
+
+      #interest-6 {
+        background: url('../../картинки/танк-в-гараже.jpg') center center no-repeat;
+      }
+
+.interest-foto-qq a {
+  position: relative;
+  top: 180px;
+  font-size: 16px;
+}
+
+.interest-foto-qq {
+  color: #000;
+  top: 60px;
+  width: 200px;
+  height: 180px;
+}
+
+.interest-foto-galary {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+
+.interest-foto-qq {
+  margin: 20px;
+}
+
+.our {
+  border: solid 1px;
+  height: 393px;
+}
+
+.our h2 {
+  font-size: 24px;
+  margin: 57px 0 37px 36px;
+}
+
+.our p {
+  width: 480px;
+  font-size: 16px;
+  margin: 37px 0 65px 36px;
+}
+
+#bottom-our {
+  margin-left: 36px;
+  font-size: 18px;
+}
+
+#bottom-our a {
+  padding: 18px;
+  background: #999;
+  width: 14px;
+  height: 40px;
+  border: solid 1px;
+  border-radius: 20px;
+}
+
+.our-text {
+  float: left;
+}
+
+#o-our-img {
+  margin: 46px 0 0 90px;
+  border: solid 2px;
+}
+
+.dowland {
+  border: solid 1px;
+  margin-top: 30px;
+  height: 100px;
+  padding-left: 30px;
+}
+
+.dowland h2 {
+  position: relative;
+  top: 34px;
+  width: 453;
+  float: left;
+  font-size: 24px;
+  padding-right: 40px;
+}
+
+.dowland p {
+  position: relative;
+  top: 38px;
+  width: 222;
+  float: left;
+  font-size: 16px;
+}
+
+#img-android-app {
+  position: relative;
+  top: -58px;
+}
+
+#img-apple-app {
+  position: relative;
+  top: -78px;
+  left: -50px;
+}
+
+.img-dovland {
+  position: relative;
+  left: 180px;
+}
+/******************/
+
+.footer {
+  border: solid 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-1, .footer-2 {
+  list-style: none;
+}
+
+.footer-head {
+  width: 1336px;
+}
+
+.footer-head ul li a {
+  font-size: 36px;
+}
+
+.footer-1 {
+  width: 960px;
+  float: left;
+  display: flex;
+}
+
+.footer-2 {
+  width: 370px;
+  float: left;
+  display: flex;
+  padding-top: 31px;
+}
+
+.footer-head:after {          /* фишка которая работает при разрушении текста от
+                            от добавления float не обязательно знать как она это чинит,
+                            главное, что чинит и потом нормально работает*/
+  content:" ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.footer-1 li {
+  padding: 30px;
+  margin: 0 auto;
+}
+/*************/
+
+
+.cont-help {
+  margin: 0 auto;
+
+  width: 600px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.help-footer-1 {
+  width: 300px;
+  float: left;
+  text-align: center;
+  padding: 20px 0 30px 0;
+}
+
+.help-footer-1 ul {
+  list-style: none;
+}
+
+.help-footer-1 h2 {
+  font-size: 32px;
+}
+
+.help-footer-1 ul li a {
+  font-size: 28px;
+}
+
+.cont-help:after {          /* фишка которая работает при разрушении текста от
+                            от добавления float не обязательно знать как она это чинит,
+                            главное, что чинит и потом нормально работает*/
+  content:" ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.footer-copy {
+  text-align: center;
+}
+
+#hr-footer {
+  border: solid 1px;
+  width:1100px;
+  margin: 0 auto;
+}
+
+#hr-footer-2 {
+  border: solid 1px;
+  width:700px;
+  margin: 0 auto 30px;
+}
+
+/*************/
+
+#sidebar, .menu-header i {
+  font-size: 30px;
+  padding-left: 10px;
+  width: 35px;
+}
+
+#Xyecos-logo {
+  background: url('../../картинки/лого.png') center center no-repeat;
+  background-size: 100px auto;
+  padding: 4px 0 20px 200px ;
+}
+
+/*********/
+
+.header-search-menu {
+  margin-left: 20px;
+  padding-right: 70px;
+}
